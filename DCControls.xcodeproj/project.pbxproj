@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		078E94591773729200C909F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		078E94591773729200C909F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		AB10356C13669BE900216FE5 /* DCControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB10357013669BE900216FE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB10357213669BE900216FE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,7 +68,6 @@
 		AB10356113669BE900216FE5 = {
 			isa = PBXGroup;
 			children = (
-				078E94591773729200C909F1 /* Default-568h@2x.png */,
 				AB10358A13669C0100216FE5 /* DCControlsAppDelegate.h */,
 				AB10358B13669C0100216FE5 /* DCControlsAppDelegate.m */,
 				AB10358D13669C0C00216FE5 /* MainWindow.xib */,
@@ -123,6 +122,7 @@
 				AB10357913669BE900216FE5 /* InfoPlist.strings */,
 				AB10357C13669BE900216FE5 /* DCControls-Prefix.pch */,
 				AB10357D13669BE900216FE5 /* main.m */,
+				078E94591773729200C909F1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			path = DCControls;
@@ -259,7 +259,9 @@
 				GCC_PREFIX_HEADER = "DCControls/DCControls-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DCControls/DCControls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,7 +276,9 @@
 				GCC_PREFIX_HEADER = "DCControls/DCControls-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DCControls/DCControls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

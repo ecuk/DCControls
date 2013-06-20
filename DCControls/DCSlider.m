@@ -193,7 +193,7 @@
 										   valueRect.size.width,
 										   valueRect.size.height)
 					   withFont:self.labelFont
-				  lineBreakMode:UILineBreakModeTailTruncation];
+				  lineBreakMode:NSLineBreakByTruncatingTail];
 	}
 }
 
