@@ -29,7 +29,7 @@
 
 		// setup defaults
 		self.backgroundColor = [UIColor blackColor];
-		self.backgroundColorAlpha = 0.3;
+		self.backgroundColorAlpha = 0.15;
 		self.color = [UIColor blueColor];
 		self.min = 0.0;
 		self.max = 1.0;
